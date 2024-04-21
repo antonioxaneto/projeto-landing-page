@@ -37,16 +37,3 @@ setaVoltar.addEventListener('click', function() {
     esconderImagens();
     mostrarImagem();
 })
-
-
-setaVoltar.addEventListener('click', function() {
-
-    if(imagemAtual === 0) {
-        return;
-    }
-
-    imagemAtual--;
-
-    esconderImagens();
-    mostrarImagem();
-})
